@@ -1,0 +1,152 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navMenu {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5em;
+  padding: 1em;
+  margin: 1em 0;
+  line-height: 2.5em;
+}
+
+.navMenu li {
+  cursor: pointer;
+}
+
+.displayFlex {
+  display: flex;
+  transition: 1s;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.9em;
+}
+
+.logo {
+  width: 3em;
+  height: 2em;
+}
+
+.burguerMenu {
+  width: 3em;
+  height: 2em;
+  cursor: pointer;
+}
+
+.mainImageMob {
+  width: 21rem;
+  position: relative;
+  top: 0.5em;
+  left: 0.7em;
+}
+
+.mainImageDesk {
+  display: none;
+}
+
+main h1 {
+  margin: 1em 0.3em;
+  line-height: 23%;
+}
+
+main p {
+  margin: 1em 0.7em;
+  color: hsl(236, 13%, 42%);
+}
+
+main button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  width: 12em;
+  padding: 1em;
+  text-align: center;
+  position: relative;
+  left: .7em;
+  background-color: hsl(5, 85%, 63%);
+  color: #fff;
+  border-style: none;
+  letter-spacing: .2em;
+  cursor: pointer;
+  transition: .5s;
+}
+
+main button:hover {
+  color: #222;
+
+}
+
+.contentBlue {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 5%);
+    color: #fff;
+    margin: 1.5em .5em;
+    padding: 1em;
+}
+
+.contentBlue h2 {
+  color: hsl(35, 77%, 62%);
+}
+
+.contentBlue p {
+  position: relative;
+  right: .7em;
+}
+
+.insideCtn {
+  border-bottom: 1px solid #fff;
+  border-color: hsla(36, 100%, 99%, 0.432);
+  line-height: 20px;
+}
+
+.whiteCtn {
+  display: flex;
+}
+
+.whiteCtn h2 {
+  color: hsl(233, 8%, 79%);
+}
+
+.whiteCtn img {
+  width: 7em;
+  padding: .5em;
+}
+
+.whiteContent{
+  position: relative;
+  bottom: .6em;
+  left: 1em;
+}
+
+.whiteContainer {
+  margin: .5em;
+  line-height: 17px;
+}
+
+.whiteContainer p {
+  position: relative;
+  right: .7em;
+}
+
+@media screen and (min-width: 768px) {
+    .burguerMenu {
+      display: none;
+    }
+
+    .mainImageMob {
+      display: none;
+    }
+
+    .mainImageDesk {
+      display: flex;
+      width: 50em;
+      margin: 2.5em .8em;
+    }
+}
